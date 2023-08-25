@@ -1,0 +1,186 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body {
+     height : 100%;
+     width:100%
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+#nav-prt2{
+    display: flex;
+    width: 60%;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+#nav i{
+    font-size: 20px;
+    margin: 5px;
+}
+#nav>h5{
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+#nav img{
+    height: 60px;
+}
+
+#line{
+   width: 50px;
+    height: 2px;
+    background-color: red;
+}
+
+#content{
+    height:calc(100% - 100px);
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#left{
+     width: 36%;
+     height: 100%;
+     /* background-color: red; */
+     padding: 100px 100px;
+     line-height: 1.0;
+}
+
+#right{
+    width: 36%;
+    height: 100%;
+    padding: 130px 100px;
+    /* background-color: rgb(31, 7, 136); */
+}
+
+#center {
+    width: 26%;
+    height: 100%;
+    /* background-color: red; */
+    padding-top: 60px;
+}
+
+#left h1{
+    font-size: 35px;
+    line-height:40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#left h1 span{
+    color: red;
+    font-weight: 500;
+}
+
+#left p{
+    font-size: 13px;
+    margin-bottom: 40px;
+    line-height: 18px;
+}
+
+#button1{
+    text-decoration: none;
+background-image: linear-gradient(45deg, rgb(252, 15, 15),tomato);
+padding: 10px 20px;
+border-radius:15px;
+color: antiquewhite;
+font-weight: 700;
+}
+
+#center-bg{
+    background-color: blue;
+    height: 88%;
+    width: 100%;
+    border-top-left-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(coca\ cola\ background.jpg);
+    background-size: 400%;
+    background-position: 30% 20%;
+    filter: blur(3px);
+
+}
+
+#content>img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+transform: translate(-50%,0);
+}
+
+#right-elems{
+    /* background-color: red; */
+    width: 300px;
+}
+
+#elem1{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 70px;
+   /* background-color: blue;  */
+   border-bottom: 1px solid #fff ;
+   opacity: 0.6;
+}
+
+#elem1 h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+#elem1 i{
+    font-size: 24px;
+}
+
+#elem2 h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom:15px ;
+    padding-top: 15px; 
+}
+
+#elem2 p{ 
+   font-size: 12px;
+   width: 80%;
+   opacity: 0.6;
+
+}
+
+
+/* Alhamdulliah the project is complete:
+            thank you  
+            this project is made by Ahmed Sunan. */
+
